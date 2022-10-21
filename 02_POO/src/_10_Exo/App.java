@@ -78,6 +78,8 @@ public class App {
 	 * - double salaireMoyen() : affiche le salaire moyen des employés de la collection.
 	 * 
 	 * Tester le tout avec la méthode main ci dessous.
+	 * 
+	 * 
 	 */
 
 	public static void main(String[] args) {
