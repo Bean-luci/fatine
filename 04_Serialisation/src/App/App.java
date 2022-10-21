@@ -3,6 +3,7 @@ package App;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
+import Helppers.Binary;
 import Helppers.XML;
 import Model.Adresse;
 
@@ -23,6 +24,8 @@ public class App {
 				Adresse adresseLue = (Adresse)XML.decodeFromFile("Export/adresse.xml");
 				
 				System.out.println(adresseLue);
+				
+				Binary.encodeToFile(list,");
 				
 				
 			} catch (FileNotFoundException e) {
