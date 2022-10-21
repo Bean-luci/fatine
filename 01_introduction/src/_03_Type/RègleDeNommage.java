@@ -1,0 +1,25 @@
+package _03_Type;
+
+public class RègleDeNommage {
+
+	public static void main(String[] args) {
+		/**
+		 * Une variable peut commancer au choix par:
+		 * - une lettre
+		 * - un"_"
+		 * - mais pas par un chiffre ou un opérateur 
+		 */
+		
+		int monEntier= 10;
+		String maChaineDeCaractere= "ma chaine de caractere ";
+		char $monCaractere= 'a';
+		/**
+		 * Pa convention on utilise le camelCase pour les variables
+		 * -Pascal case :pascalCase 
+		 * -Snake case: snake_case
+		 */
+		System.out.println(monEntier + maChaineDeCaractere);
+
+	}
+
+}

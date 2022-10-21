@@ -1,0 +1,27 @@
+package _05_Instructions;
+
+public class _03_Boucles {
+
+	public static void main(String[] args) {
+		/*
+		 * Une boucle permet de repeter un certain nombre de fois une instruction ou un bloc
+		 * 3 mot clés permettent de créer des boucles :
+		 * for: permet de repeter un bloc un nom déterminé de fois
+		 * for(initexpr,testExpr,incExpr){}
+		 * while
+		 * do while
+		 */
+		String [] months= {"Janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"};
+		System.out.println("****BOUCLE FOR AVEC BREAK");
+		for(int index=0, index<months.length, index++) {
+			System.out.println(months[index]){
+				in(months [index]=="octobre"{
+						System.out.println("l'instruction Breapermet de stopper sous condition l'execution d'une boucle");
+						break;
+				}
+				System.out.println(months[index]);
+			}
+		}
+	}
+
+}

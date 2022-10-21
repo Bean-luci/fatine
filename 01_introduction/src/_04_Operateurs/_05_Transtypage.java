@@ -1,0 +1,36 @@
+package _04_Operateurs;
+
+public class _05_Transtypage {
+
+	public static void main(String[] args) {
+			/*
+			 * TRANSTYPAGE: transformer un type en un autre type
+			 */
+		byte myByte= 111;
+		short myShort= myByte;
+		int myInt= myShort;
+		long myLong= myInt;
+		float myFloat= myLong;
+		double myDouble= myFloat;
+		
+		myDouble= 123456789.123456789;
+		//myFloat=myDouble; // Type mismatch: connot convert from double to float
+		
+		myFloat= (float) myDouble;
+		myLong= (long)myFloat;
+		myInt= (int) myLong;
+		myShort= (short) myInt;
+		myByte= (byte) myShort;
+		
+
+		System.out.println(myDouble+ "(myDouble)");
+		System.out.println(myFloat+ "(myFloat)");
+		System.out.println(myLong + "(myLong)");
+		System.out.println(myInt + "(myInt)");
+		System.out.println(myShort + "(myShort)");
+		System.out.println(myByte + "(myByte)");
+		
+		
+	}
+
+}

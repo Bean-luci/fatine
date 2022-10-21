@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="folderName">./logs</Property>
+		<Property name="fileName">LogDemo</Property>
+	</Properties>
+
+	<Appenders>
+
+		<!-- Appender de type "RollingFile" nommé "File"-->
+		<RollingFile name="File" fileName="${folderName}/${fileName}.log" filePattern="${folderName}/${fileName}-%d{yyyy-MM-dd HH-mm-ss}.log">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="1 KB" />
+		</RollingFile>
+
+		<!-- Appender de type "Console" nommé "Console" -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+	
+	<logger name="" level="" additivity= "">
+	<AppenderRef ref="Console" />
+	</logger>
+	
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>

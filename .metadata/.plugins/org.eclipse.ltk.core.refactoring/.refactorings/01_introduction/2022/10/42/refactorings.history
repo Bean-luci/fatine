@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;_03_Types_Complexes.monEnum&apos; to &apos;MonEnum&apos;&#x0D;&#x0A;- Original project: &apos;01_introduction&apos;&#x0D;&#x0A;- Original element: &apos;_03_Types_Complexes.monEnum&apos;&#x0D;&#x0A;- Renamed element: &apos;_03_Types_Complexes.MonEnum&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;monEnum&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;_03_Types_Complexes{monEnum.java[monEnum" matchStrategy="1" name="MonEnum" qualified="false" references="true" similarDeclarations="false" stamp="1666019284211" textual="false" version="1.0"/>
+</session>

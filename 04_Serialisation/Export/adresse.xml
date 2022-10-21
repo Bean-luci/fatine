@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19" class="java.beans.XMLDecoder">
+ <object class="Model.Adresse">
+  <void property="codePostale">
+   <int>67000</int>
+  </void>
+  <void property="ville">
+   <string>Strasbourg</string>
+  </void>
+  <void property="voie">
+   <string>Ypres</string>
+  </void>
+ </object>
+</java>

@@ -1,0 +1,20 @@
+package _05_Instructions;
+
+public class _01_General {
+
+	public static void main(String[] args) {
+		/*
+		 * Une instruction simple se termine par un ";"
+		 * Un bloc d'instriction est contenu entre"{}"
+		 * Les variables déclarées dans un bloc ne sont accéssible que dans ce bloc
+		 */
+		System.out.println("cette instruction se termine formément par un \";\"");{
+			System.out.println("ceci est la première instruction d'un bloc d'instructions");
+			int a=10; 
+			System.out.println("ceci est la dernière instruction d'un bloc d'instructions");
+		}
+		}
+
+	}
+
+}

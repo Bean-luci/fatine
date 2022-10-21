@@ -1,0 +1,46 @@
+package _04_Heritage;
+
+public class Client extends User {// la classe herite de la classe User
+	
+private String phone;
+private boolean subscriber;
+public String getPhone() {
+	return phone;
+}
+
+//Getters + Setters
+public void setPhone(String phone) {
+	this.phone = phone;
+}
+
+public Client(String nom, String prenom, int age) {
+	super(nom, prenom, age);//Appel au constructeur à 3 paramètres de la classe mère (User)
+	
+}
+public Client(String nom, String prenom, int age, String phone) {
+	this(nom,prenom,age);
+	
+	this.setPhone(phone);
+	
+}
+
+@Override
+public String toString() {
+	return super.toString() + "Il/Elle est client. Son numéro est" + this.getPhone();
+	
+public boolean isSubscriber() {
+	return subscriber;
+}
+public void setSubscriber(boolean subscriber) {
+	this.subscriber = subscriber;
+}
+
+//Constructeurs
+public Client(boolean subscriber) {
+	super();
+	this.subscriber = subscriber;
+	
+}
+
+	
+}

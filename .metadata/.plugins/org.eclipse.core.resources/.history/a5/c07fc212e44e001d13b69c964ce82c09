@@ -1,0 +1,14 @@
+package _07_Exo;
+
+public class _04_Exo {
+
+	public static void main(String[] args) {
+		for(int i = 0; i < 24;  i += 3) {
+			   System.out.println(i + " can be divided by 3");
+			   System.out.println((i+1) + " cannot be divided by 3");
+			   System.out.println((i+2) + " cannnot be divided by 3");
+			}
+
+	}
+
+}

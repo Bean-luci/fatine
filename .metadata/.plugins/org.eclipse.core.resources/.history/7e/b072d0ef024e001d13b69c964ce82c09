@@ -1,0 +1,19 @@
+package _02_EntréeSortie;
+
+import java.util.Scanner;
+
+public class _02_Scan {
+
+	public static void main(String[] args) {
+		Scanner clavier = new Scanner (System.in);
+		
+		int n = 0;
+		System.out.println("Entrer un nombre entier: ");
+		n= clavier.nextInt();
+		System.err.println("Le carrée de " +n+ " vaut "+ n*n);
+		
+		
+		clavier.close();
+	}
+
+}

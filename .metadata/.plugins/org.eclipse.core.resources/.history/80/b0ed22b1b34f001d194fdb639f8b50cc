@@ -1,0 +1,5 @@
+package _07_Interface.Class1;
+
+public interface Animal {
+
+}

@@ -1,0 +1,7 @@
+package _04_Heritage;
+
+public class Client extends User {// la classe herite de la classe User
+	
+
+	
+}

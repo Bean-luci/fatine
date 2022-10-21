@@ -1,0 +1,17 @@
+package _03_Types_Complexes;
+		/*
+		 * Contrairement aux types primitifs, les types complexes (références) exposent des méthodes.
+		 * Ils se distinguent visuellement des types primitifs en ce qui'ils commencent par une majuscule (PascaleCase)
+		 */
+public class _01_Strings {
+
+	public static void main(String[] args) {
+		String firstName= "riri";
+		String lastName= "duck";
+		
+		String fullName = firstName + lastName;
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package _07_Exo;
+
+public class _04_Exo {
+
+	public static void main(String[] args) {
+		for(int i=0; i<24;  i++){
+			   if( i%3 == 0 )
+			       //It is divisible by 3
+
+			}
+
+	}
+
+}

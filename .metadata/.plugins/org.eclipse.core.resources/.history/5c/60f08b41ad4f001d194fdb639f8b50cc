@@ -1,0 +1,12 @@
+package _05_Abstraction;
+
+public abstract class  Shape {
+	
+	public abstract double surface (); 
+	
+	
+	
+	
+	 
+
+}

@@ -1,0 +1,43 @@
+package _02_Getters_Setters;
+
+public class Users {
+	
+	public String nom;
+	public String prenom;
+	public int age;
+	
+	public static int nUsers; 
+	public Users() {
+		System.out.println("Appel du constructeur sans parametre de la classe User");
+		nUsers ++; 
+		
+	}
+	public Users(String nom, String prenom) {
+		this();
+		System.out.println("Appel au constructeur a 2 parametres de la classe User");
+		
+		this.nom= nom;
+		this.prenom= prenom;
+		//nUsers ++; 
+	}
+
+	@Override
+	public String toString() {
+		return "User [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
+	}
+	public Users(String nom, String prenom, int age) {
+		//super();
+		
+		this(nom,prenom);
+		//this.nom = nom;
+		//this.prenom = prenom;
+		this.age = age;
+		System.out.println("Appel du constructeur a 3 parametres de la classe User");
+	}
+	public static void main(String[] args) {
+
+
+
+	}
+
+}

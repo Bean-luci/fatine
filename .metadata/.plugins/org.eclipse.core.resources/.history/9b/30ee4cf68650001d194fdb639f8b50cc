@@ -1,0 +1,30 @@
+package App;
+
+import java.io.FileNotFoundException;
+
+import Helppers.XML;
+import Model.Adresse;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Adresse adresse = new Adresse ("Ypres", "Strasbourg",67000);
+		
+			try {
+				XML.encodeToFile (adresse,"Export/adresse.xml");
+				Adresse adresseLue = (Adresse)XML.decodeFromFile("Export/adresse.xml");
+				
+				System.out.println(adresseLue);
+				
+				
+			} catch (FileNotFoundException e) {
+				
+				e.printStackTrace();
+				
+			}
+		
+		
+	}
+
+}

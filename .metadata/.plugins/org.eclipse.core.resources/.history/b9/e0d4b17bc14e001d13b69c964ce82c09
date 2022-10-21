@@ -1,0 +1,10 @@
+package _04_Operateurs;
+
+public class _05_Transtypage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

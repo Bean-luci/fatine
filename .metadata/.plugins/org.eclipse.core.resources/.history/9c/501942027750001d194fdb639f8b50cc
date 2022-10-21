@@ -1,0 +1,5 @@
+14:51:42.677 [main] INFO  _01_User.App - zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+14:51:42.682 [main] INFO  _01_User.App - zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+14:51:42.683 [main] INFO  _01_User.App - zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+14:51:42.683 [main] INFO  _01_User.App - zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+14:51:42.683 [main] WARN  _01_User.App -  Un age ne peut pas être négatif 

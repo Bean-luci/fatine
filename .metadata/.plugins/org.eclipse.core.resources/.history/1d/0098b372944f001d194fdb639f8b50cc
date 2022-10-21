@@ -1,0 +1,12 @@
+package _03_Agregations;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Notes notes= new Notes(12,14);
+		
+
+	}
+
+}

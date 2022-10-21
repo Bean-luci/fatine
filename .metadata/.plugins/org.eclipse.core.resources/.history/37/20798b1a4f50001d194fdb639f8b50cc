@@ -1,0 +1,13 @@
+package _01_User;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		User user= new User("duck","riri",-12);
+		
+		
+			System.out.println(user);
+	}
+
+}

@@ -1,0 +1,16 @@
+package _03_Agregations;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Notes notes= new Notes(12,14);
+		
+		Etudiant e1= new Etudiant(1, "riri",notes);
+		
+		System.out.println(e1);
+		
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package _03_Types_Complexes;
+
+public enum monEnum {
+	
+	VERT, ORANGE, ROUGE, VERT_OLIVE
+
+}

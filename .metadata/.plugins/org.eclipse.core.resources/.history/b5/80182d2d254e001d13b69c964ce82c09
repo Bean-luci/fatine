@@ -1,0 +1,47 @@
+package _03_Types_Complexes;
+		/*
+		 * Contrairement aux types primitifs, les types complexes (références) exposent des méthodes.
+		 * Ils se distinguent visuellement des types primitifs en ce qui'ils commencent par une majuscule (PascaleCase)
+		 */
+public class _01_Strings {
+
+	public static void main(String[] args) {
+		String firstName= "riri";
+		String lastName= "duck";
+		
+		String fullName = firstName + lastName;
+		
+		
+		System.out.println(firstName);
+		firstName= firstName.toUpperCase();
+		System.out.println(firstName);
+		
+		String s1= "Bonjour";
+		String s2= "Bonjour"; //n'alloue pas d'autre mémoire car une variable ayant la même valeur existe déja
+		String s3= new String("Bonjour"); // alloue de la mémoire car appel au Constructeur (new)
+		
+		System.out.println(s1==s2);//true
+		System.out.println(s1==s3);//false
+		
+		System.out.println(s1.equals(s3));//true
+		System.out.println(s1.charAt(2)); // 'n' retourne le caractère d'indice 2 (3eme caractère de Bonjour..)
+		
+		System.out.println(s1.concat(" riri"));
+		
+		System.out.println(s1.substring(2)); //retourne la sous chaine à partir de l'indice 2
+		
+		System.out.println(s1.substring(2,4));
+		
+		System.out.println(s1.toLowerCase()); 
+		System.out.println(s1.toUpperCase());
+		
+		s1= "Ceci est une chaine de caractere";
+		String []splitted= s1.split(""); //retourne un tableau de chaines de caractères
+		for (String item: splitted) {
+			System.out.print(item + "");
+		}
+		
+		
+	}
+
+}

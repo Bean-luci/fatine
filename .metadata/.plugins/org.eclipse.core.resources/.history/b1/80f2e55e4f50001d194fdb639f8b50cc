@@ -1,0 +1,21 @@
+package _01_User;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+			try {
+				User user= new User("duck","riri",-12);
+				
+				
+			} catch (Exception e) {
+				
+				
+				
+			}
+		
+			System.out.println(user);
+	}
+
+}

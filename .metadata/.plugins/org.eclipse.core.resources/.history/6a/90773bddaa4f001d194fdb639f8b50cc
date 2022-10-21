@@ -1,0 +1,40 @@
+package _05_Abstraction;
+
+public class Cercle extends Shape {
+
+	private int rayon;
+	
+	public int getRayon() {
+		return rayon;
+	}
+	
+	
+	
+	public void setRayon(int rayon) {
+		
+		if (rayon>=0) {
+		
+		this.rayon = rayon;
+	}
+		else {
+			throw new IllegalArgumentException("le rayon du cercle doit être positif");
+		}	
+		this.rayon = rayon;
+	}
+
+
+
+	public Cercle(int rayon) {
+		super();
+		this.rayon = rayon;
+	}
+
+
+
+	@Override
+	public double surface() {
+		
+		return Math.PI*rayon*rayon;
+	}
+
+}

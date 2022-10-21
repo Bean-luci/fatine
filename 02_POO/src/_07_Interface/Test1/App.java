@@ -1,0 +1,20 @@
+package _07_Interface.Test1;
+
+public class App {
+
+	public static void main(String[] args) {
+
+
+		Animal chien = new Chien();
+		Animal chat = new Chat();
+		
+		chien.communiquer();
+		chat.communiquer();
+		
+		
+		
+		ProduitRepository _repo= new ProduitMySqlRepository();
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+package _03_Agregations;
+
+import java.util.List;
+
+public class Promotion {
+	
+	List<Etudiant>etudiant;
+
+	public Promotion(List<Etudiant> etudiant) {
+		super();
+		this.etudiant = etudiant;
+	}
+
+	@Override
+	public String toString() {
+		return "Promotion [etudiant=" + etudiant + "]";
+	}
+
+}

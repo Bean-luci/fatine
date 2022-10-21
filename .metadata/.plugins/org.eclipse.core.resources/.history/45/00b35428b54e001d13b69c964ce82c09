@@ -1,0 +1,30 @@
+package _03_Types_Complexes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class _04_Collections_Java {
+
+	public static void main(String[] args) {
+
+		List <String> list = new ArrayList<String>();
+		
+		list.add("a");
+		list.add("b");
+		list.add("c");
+		list.add("d");
+		list.add("e");
+		list.add("f");
+		
+		System.out.println("********Parcours for classique**********");
+		for (int i=0; i<list.size();i++) {
+			System.out.println(list.get(i));
+		}
+		System.out.println("********Parcours foreach*******");
+		
+		for(String str:list) {
+			System.out.println(str);
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+package _06_Methodes;
+
+public class _01_Methodes {
+	public static void afficher() {
+		System.out.println("Methode afficher");
+		
+	}
+	public static void afficher(String message) {
+		System.out.println(message);
+		
+	}
+	public static void main(String[] args) {
+		/*
+		 * Une méthode represente un bloc d'instructions réutilicable
+		 * Elle permet d'éviter les répétitions de code
+		 * Une méthose se différencie d'une fonction en ce qu'elle est necessairement rattachée à un objet
+		 * Etant purement Objet , Java ne supporte que le concept de méthode
+		 */
+		afficher(); 
+		afficher("Méthode affiché surchargée avec paramètre"); 
+		
+		
+		
+	}
+
+}

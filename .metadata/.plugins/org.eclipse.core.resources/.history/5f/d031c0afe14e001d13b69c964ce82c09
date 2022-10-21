@@ -1,0 +1,27 @@
+package _07_Exo;
+
+public class _03_Exo {
+
+	public static void main(String[] args) {
+		int x = 100;
+	    if (x % 2 == 0) {
+	      System.out.println("Pair");
+	    }
+	    if (x % 2 != 0) {
+	      System.out.println("Impair");
+	    }
+	    /* 
+	       Test avec des opérateurs binaires.
+	       Voir les calculs binaires
+	     */
+	    if ((x & 1) == 0) 
+	     {
+	      System.out.println("Pair");
+	    }
+	    if ((x &#038; 1) != 0) {
+	      System.out.println("Impair");
+	    }
+
+	}
+
+}

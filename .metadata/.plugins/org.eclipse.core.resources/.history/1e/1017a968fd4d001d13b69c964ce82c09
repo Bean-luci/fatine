@@ -1,0 +1,13 @@
+package _02_EntréeSortie;
+
+public class _01_Print {
+
+	public static void main(String[] args) {
+		// le caractère \ est un caractère d'échappement qui permet d'écrire des caractères spéciaux dans une chaine de caractère
+		System.out.println("la methode \"println\" permet d'ecrire une ligne" );
+		System.out.println("la methode \"println\" permet d'ecrire une ligne" );
+		System.out.println("la methode \"println\" permet d'ecrire une ligne" );
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package _04_Operateurs;
+
+public class _05_Transtypage {
+
+	public static void main(String[] args) {
+			/*
+			 * TRANSTYPAGE: transformer un type en un autre type
+			 */
+		byte myByte= 111;
+		short myShort= myByte;
+		int myInt= myShort;
+		long myLong= myInt;
+		float myFloat= myLong;
+		double myDouble= myFloat;
+		
+	}
+
+}

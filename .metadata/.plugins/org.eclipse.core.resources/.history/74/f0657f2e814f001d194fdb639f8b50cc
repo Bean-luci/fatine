@@ -1,0 +1,21 @@
+package _01_Constructeur;
+
+public class User {
+	
+	public String nom;
+	public String prenom;
+	public int age;
+	
+
+	public User() {
+		System.out.println("Appel du constructeur sans parametre de la classe User");
+		
+	}
+
+	public static void main(String[] args) {
+
+
+
+	}
+
+}
